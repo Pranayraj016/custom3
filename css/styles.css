@@ -340,7 +340,6 @@ svg {
   border-radius: 50px;
   font-size: 16px;
 }
-
 .download-now {
   background-color: #29c6af;
   color: #f0f0f0;
@@ -350,7 +349,10 @@ svg {
   font-size: 16px;
   cursor: pointer;
 }
-
+.download-now a {
+  color: white;
+  text-decoration: none;
+}
 /* Inner Black Oval */
 .inner-black-oval {
   background: linear-gradient(
