@@ -160,9 +160,7 @@ svg {
   transform: translateX(-50%); /* Adjust for centering */
 }
 
-
 /*Mobile responsive*/
-
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -221,12 +219,13 @@ svg {
 
     padding: 10px; /* Padding for the navbar */
   }
-notify-btn {
+  .notify-btn {
     padding: 10px 20px; /* Adjust button padding */
     font-size: 14px; /* Smaller font size */
     display: block; /* Show button in laptop view */
     display: none; /* Hide by default */
   }
+
   .nav-links.active {
     display: flex; /* Show links when active */
     max-height: 300px; /* Set a maximum height when active */
@@ -792,7 +791,6 @@ notify-btn {
 }
 .header-left {
   display: flex;
-
   justify-content: left;
   margin-bottom: 0px;
   margin-right: 25px;
@@ -1834,7 +1832,6 @@ notify-btn {
   }
 }
 
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -1859,7 +1856,7 @@ notify-btn {
 /* Heading Style */
 .gst-heading {
   font-size: 3rem;
-  margin-bottom: 4px;
+  margin-bottom: 4px; /*changed*/
   font-weight: bold;
   color: #ffffff; /* White text */
   padding: 0 20px; /* Padding inside the heading box */
@@ -1931,6 +1928,9 @@ notify-btn {
       0 90%
     ); /* Adjust shape for mobile */
   }
+  /* .floating-buttons {
+    display: none;
+  } */
 }
 #custom {
   display: flex;
@@ -2294,7 +2294,10 @@ footer {
   text-align: center;
   transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.social-icons img {
+  width: 20px;
+}
+.social-media
 /* Newsletter Section */
 .news-sec {
   margin-top: 40px;
