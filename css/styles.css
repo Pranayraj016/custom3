@@ -2372,7 +2372,7 @@ footer {
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   footer {
-    margin-top: 0px; /* Adjust footer position for smaller screens */
+    margin-top: 330px; /* Adjust footer position for smaller screens */
   }
   .footer-top {
     flex-direction: column;
@@ -2416,7 +2416,7 @@ footer {
 
 @media (max-width: 480px) {
   footer {
-    margin-top: 0px; /* Adjust footer position for smaller screens */
+    margin-top: 330px; /* Adjust footer position for smaller screens */
   }
   .footer-logo img {
     height: 35px; /* Further reduce logo size for very small screens */
