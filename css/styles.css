@@ -2225,6 +2225,7 @@ footer {
   animation: gradientAnimation 10s ease infinite;
   padding: 40px 20px;
   color: white; /* White text for better contrast */
+  margin-top: -330px;
 }
 
 /* Keyframes for gradient animation */
