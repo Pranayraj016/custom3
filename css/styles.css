@@ -2371,6 +2371,9 @@ footer {
 
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
+  footer {
+    margin-top: 0px; /* Adjust footer position for smaller screens */
+  }
   .footer-top {
     flex-direction: column;
     text-align: center;
