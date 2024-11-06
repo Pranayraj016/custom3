@@ -350,7 +350,7 @@ svg {
   cursor: pointer;
 }
 .download-now a {
-  color: white;
+  color: #f0f0f0;
   text-decoration: none;
 }
 /* Inner Black Oval */
