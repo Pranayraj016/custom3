@@ -114,7 +114,7 @@ body {
   /* position: relative; Ensure other content is above the background */
   z-index: 1; /* Bring other content in front of the background */
 }
-a {
+.hero a {
   position: relative;
   display: block; /* Ensures it takes up space and is clickable */
   z-index: 99 !important; /* Bring it to the top of the stacking context */
