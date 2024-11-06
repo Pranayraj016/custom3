@@ -2415,6 +2415,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+  footer {
+    margin-top: 0px; /* Adjust footer position for smaller screens */
+  }
   .footer-logo img {
     height: 35px; /* Further reduce logo size for very small screens */
   }
