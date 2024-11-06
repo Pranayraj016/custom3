@@ -114,6 +114,11 @@ body {
   /* position: relative; Ensure other content is above the background */
   z-index: 1; /* Bring other content in front of the background */
 }
+a {
+  position: relative;
+  display: block; /* Ensures it takes up space and is clickable */
+  z-index: 99 !important; /* Bring it to the top of the stacking context */
+}
 
 .hero .highlight {
   color: #29c6af;
@@ -343,6 +348,7 @@ svg {
   border: none;
   border-radius: 50px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /* Inner Black Oval */
