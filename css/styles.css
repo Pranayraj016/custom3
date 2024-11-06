@@ -160,7 +160,9 @@ svg {
   transform: translateX(-50%); /* Adjust for centering */
 }
 
+
 /*Mobile responsive*/
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -1831,6 +1833,10 @@ notify-btn {
     background-position: 0% 50%;
   }
 }
+
+.gst-heading{   
+  margin-bottom: 6px 
+            }
 
 .container {
   max-width: 1200px;
