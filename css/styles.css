@@ -1862,7 +1862,7 @@ notify-btn {
 /* Heading Style */
 .gst-heading {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
   font-weight: bold;
   color: #ffffff; /* White text */
   padding: 0 20px; /* Padding inside the heading box */
