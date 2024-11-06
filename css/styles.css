@@ -1931,9 +1931,6 @@ notify-btn {
       0 90%
     ); /* Adjust shape for mobile */
   }
-  .floating-buttons {
-    display: none;
-  }
 }
 #custom {
   display: flex;
