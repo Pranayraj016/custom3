@@ -219,7 +219,12 @@ svg {
 
     padding: 10px; /* Padding for the navbar */
   }
-
+notify-btn {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 14px; /* Smaller font size */
+    display: block; /* Show button in laptop view */
+    display: none; /* Hide by default */
+  }
   .nav-links.active {
     display: flex; /* Show links when active */
     max-height: 300px; /* Set a maximum height when active */
