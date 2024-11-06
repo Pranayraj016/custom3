@@ -300,11 +300,11 @@ svg {
 
   .gradient-text {
     font-size: 24px; /* Adjust font size for gradient text */
-    padding-top: 0px;
+    padding-top: 20px;
   }
   .gradient-text-svg {
     width: 120%;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 }
 
